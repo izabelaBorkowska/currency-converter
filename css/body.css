@@ -1,5 +1,4 @@
 .body {
- 
   max-width: 800px;
   width: auto;
   border: #5c0120 solid;
@@ -7,7 +6,8 @@
   margin: 2%;
   padding: 1%;
   margin: auto;
-}
+  background-image: url("../images/background.jpg");
+ }
 
 .mainHeading {
   text-align: center;
