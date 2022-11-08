@@ -1,6 +1,6 @@
 # Currency Converter
 
-### DEMO :
+### DEMO: https://izabelaborkowska.github.io/currency-converter/
 
 ### Description:
 This simple currency converter is my second project as part of my Youcode Course. 
