@@ -13,4 +13,4 @@ In this project I used:
 - Java Script
 
 ![Screenshot](images/appstart.JPG)
-![Screenshotappused](images/appworks.JPG)
+![gif](images/currencyconvertergif.gif)
