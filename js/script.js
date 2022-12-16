@@ -3,8 +3,6 @@
     console.log("Witaj na mojej stronie :) ");
   };
 
-  welcome();
-
   const calculateResult = (amount) => {
     const eurElement = document.querySelector(".js-eur");
     const gbpElement = document.querySelector(".js-gbp");
@@ -34,6 +32,7 @@
   const init = () => {
     const formElement = document.querySelector(".js-form");
     formElement.addEventListener("submit", onFormSubmit);
+    welcome();
   };
 
   init();
