@@ -6,7 +6,6 @@
 .labels {
   padding-left: 2%;
 }
- 
 
 .form__labelText {
   display: inline-block;
@@ -31,7 +30,7 @@
   border-radius: 10px;
   background-color: #5c0120;
   color: white;
-  cursor: pointer
+  cursor: pointer;
 }
 .form__button:hover {
   background-color: #680829;
@@ -46,6 +45,10 @@
   border-radius: 5px;
 }
 
+.form__input {
+  padding-left: 2px;
+}
+
 .form__legend {
   padding: 7px;
   border: 1px solid;
@@ -58,4 +61,8 @@
   display: inline-block;
   list-style-type: none;
   padding: 10px;
+}
+
+.list {
+  padding-left: 90px;
 }
