@@ -28,15 +28,14 @@
   <body class="body">
     <h1 class="mainHeading">Kantor Internetowy</h1>
     <div class="container">
-      <form class="form">
+      <form class="form js-form">
         <fieldset class="form__fieldset">
           <legend class="form__legend">Kalkulator Walut</legend>
-
           <p>
             <label class="labels"> 
-              Ile PLN chcesz wymienić:
+              Ile PLN chcesz wymienić: 
               <input
-                class="js-pln"
+                class="js-pln form__input"
                 type="number"
                 name="ilePLN"
                 step="any"
@@ -48,7 +47,7 @@
            <label class="labels">  
              Wybierz Walutę : 
             </label>
-            <ul>
+            <ul class="list">
             <li class="form__item">
 
               <label>
@@ -70,7 +69,7 @@
                   name="Currency"
                   value="4.72"
                 />
-                USD =4.72zł
+                USD =4.72zł   
               </label>
             </li>
             <li class="form__item">
@@ -81,7 +80,7 @@
                   name="Currency"
                   value="4.72"
                 />
-                EUR =4.72zł
+                EUR =4.72zł   
               </label>
             </li>
             <li class="form__item">
@@ -92,7 +91,7 @@
                   name="Currency"
                   value="0.43"
                 />
-                SEK =0.43zł
+                SEK =0.43zł   
               </label>
             </li>
           </ul></p>
@@ -103,7 +102,7 @@
         <div class="calculation">
           <p>
             Otrzymasz: <strong class="js-result">--</strong
-            ><span class="js-name"></span>
+            >
           </p>
         </div>
       </form>
